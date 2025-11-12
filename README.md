@@ -1,7 +1,7 @@
 # Introduction to the Development Environment
 
 
-This lab is in a Jupyter notebook (`assignment-lab.ipynb`).  To run it'll you'll need to
+This programming assignment/lab is in a Jupyter notebook (`assignment.ipynb`).  To run it'll you'll need to
 check out the lab.
 
 This document describe how to do those two things.  Then, you'll be able to
@@ -21,9 +21,9 @@ The content for each lab will be distributed via github classroom.
 So, to do the lab of this course, you need:
 1. You'll need to log into https://escalab.org/datahub to run a jupyter notebook. 
 2. Tha asssignment from github classroom.  Find the link on the course 
-home page: https://www.escalab.org/classes/cse142l-2025su/
+home page: https://www.escalab.org/classes/cs203-2025fa/
 
-## Connecting to cse142l jupyterhub 
+## Connecting to cs203 jupyterhub 
 
 The first step is to navigate your browser to 
 https://escalab.org/datahub
@@ -60,20 +60,20 @@ and stop your server and then restart it.
 ## Cloning the Lab Repo
 
 First, accept the assignement on Github Classroom.  It's available via the
-CSE142L [home page](https://www.escalab.org/classes/cse142l-2025su/).
+CS203 [home page](https://www.escalab.org/classes/cs203-2025fa/).
 
 This will set you up with a copy of the starter repository.
 
 **Note**: Be sure to use the **`ssh`** method to checkout your repo rather than `http`.  Authentication over ssh is much simpler and it's what our tools assume.  If you try to use HTTP, you'll get something like:
 
 ```
-[htseng@datahub]$ git clone https://github.com/cse142lucsd/2025su-cse142l-hello-hungweitseng.git
-Cloning into '2025su-cse142l-hello-hungweitseng'...
+[htseng@datahub]$ git clone https://github.com/cs203ucsd/2025fa-cs203-hello-hungweitseng.git
+Cloning into '2025fa-cs203-hello-hungweitseng'...
 Username for 'https://github.com': hungweitseng
 Password for 'https://hungweitseng@github.com': 
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
-fatal: Authentication failed for 'https://github.com/cse142lucsd/2025su-cse142l-welcome-hungweitseng.git/'
+fatal: Authentication failed for 'https://github.com/cs203ucsd/2025fa-cs203-welcome-hungweitseng.git/'
 ```
 
 
