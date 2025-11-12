@@ -85,7 +85,7 @@ def autograde(submission=None, results=None):
     else:
         stdout = ""
     
-    score = correct*(speedup-1)*40
+    score = correct*(speedup-1)*50
     if(score > 100):
         score = 100
     elif(score < 0):
